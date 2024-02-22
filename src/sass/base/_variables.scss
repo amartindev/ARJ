@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+// $primary-font: 'Shadows Into Light', cursive;
+$primary-font: "Work Sans", sans-serif;
+$secondary-font: 'Protest Strike', sans-serif;
+
+// Colors
+
+$white-primary: #f0f8ff;
+$black-primary: #0B1215;
+$blue-primary: #258aad;
+$blue-secondary: #8ed4ce;
+
+//Media Queries
+
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1500px;

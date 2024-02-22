@@ -1,0 +1,18 @@
+/* Abstracts */
+
+@import "./sass/base/variables";
+
+/* Base */
+
+@import "./sass/base/base";
+@import "./sass/base/resets";
+
+/* Components */
+
+@import "./sass/components/navbar";
+@import "./sass/components/hero";
+@import "./sass/components/infoicons";
+@import "./sass/components/infobanner";
+@import "./sass/components/buttonwp";
+@import "./sass/components/gallery";
+@import "./sass/components/comparationgallery";
