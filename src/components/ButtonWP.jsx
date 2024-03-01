@@ -2,8 +2,9 @@
 export const ButtonWP = ({ text }) => {
 
     const handleClick = () => {
-        // Abre la nueva página en una nueva pestaña al hacer clic en el botón
-        window.open("https://wa.me/573043189950", '_blank');
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        const whatsappLink = isMobile ? "whatsapp://send?phone=573043189950" : "https://wa.me/573043189950";
+        window.open(whatsappLink, '_blank');
     };
 
     return (
