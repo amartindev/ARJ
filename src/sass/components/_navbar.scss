@@ -2,4 +2,11 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    .button-search {
+        color: $green-primary;
+        border-color: $green-primary;
+    }
+    .nav-link {
+        cursor: pointer;
+    }
 }

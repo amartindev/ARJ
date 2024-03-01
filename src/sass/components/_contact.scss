@@ -1,0 +1,23 @@
+.container-contact {
+    height: 8rem;
+    width: 100%;
+    background-color: $green-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 3rem;
+        font-weight: bold;
+        color: $black-primary;
+        margin: 0;
+    }
+}
+.container-enlace {
+    text-decoration: none;
+}
+@media only screen and (max-width: $desktop) {
+    .container-contact {
+        margin-top: 2rem;
+    }
+}

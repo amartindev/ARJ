@@ -1,3 +1,5 @@
+import { Contact } from "../components/Contact"
+import { Footer } from "../components/Footer"
 import { Gallery } from "../components/Gallery"
 import { Hero } from "../components/Hero"
 import { InfoBanner } from "../components/InfoBanner"
@@ -10,6 +12,8 @@ export const Home = () => {
         <InfoIcons></InfoIcons>
         <InfoBanner></InfoBanner>
         <Gallery></Gallery>
+        <Contact></Contact>
+        <Footer></Footer>
     </div>
   )
 }
